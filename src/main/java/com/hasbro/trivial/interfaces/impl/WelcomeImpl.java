@@ -1,8 +1,10 @@
-package com.hasbro.trivial.interfaces;
+package com.hasbro.trivial.interfaces.impl;
+
+import com.hasbro.trivial.interfaces.IWelcome;
 
 import java.util.Scanner;
 
-public class WelcomeImpl implements Welcome{
+public class WelcomeImpl implements IWelcome {
     Scanner input = new Scanner(System.in);
     int inputLanguage;
     @Override
